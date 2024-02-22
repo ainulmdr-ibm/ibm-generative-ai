@@ -123,7 +123,7 @@ class LocalLLMServer:
         self,
         models: list[type[LocalModel]],
         port: int = 8080,
-        interface: str = "0.0.0.0",
+        interface: str = "127.0.0.1",
         api_key: Optional[str] = None,
         insecure_api: bool = False,
     ):
